@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView mascaraData = (TextView) findViewById(R.id.txtData);
-        //Criar mascara pra colocar numero telefonico
+        //Criar mascara para campo "Data"
         SimpleMaskFormatter smf = new SimpleMaskFormatter("NN/NN/NNNN");
         MaskTextWatcher mtw = new MaskTextWatcher(mascaraData, smf);
         mascaraData.addTextChangedListener(mtw);
