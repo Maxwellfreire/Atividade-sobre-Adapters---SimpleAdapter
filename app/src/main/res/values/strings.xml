@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lista Pedido</string>
+    <string name="hint_nome_produto">Informe o nome do produto</string>
+    <string name="hint_descricao">Informe a descrição</string>
+    <string name="hint_valor">Informe o valor</string>
+    <string name="hint_NCM">Informe o NCM</string>
+    <string name="txt_ADD">Adicionar</string>
+    <string name="btnlimpa">Limpa</string>
+</resources>
